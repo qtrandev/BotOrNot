@@ -102,7 +102,7 @@ public class LauncherActivity extends ActionBarActivity {
                         friendList = requestFriendIds(response);
                         Intent i = new Intent(LauncherActivity.this, BotOrNotActivity.class);
                         i.putExtra("MODE", 20);
-                        //startActivity(i);
+                        startActivity(i);
                     }
                 }
         ).executeAsync();
